@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 style="text-align: center; color: white; position: relative; top: 18px; font-family: 'Rubik', sans-serif;
+    ">Make Your Own To-do List</h2>
+    <br>
+    <div id="container">
+        <div class="container-head">
+            <input type="text" id="input" placeholder="Enter A To Do">
+            <button style="cursor: pointer;" onClick="addItem()">ADD</button>
+            <button onclick="deleteAll();" style="cursor: pointer;" id="update" onClick="updating()">Delete ALL</button>
+        </div>
+        <div>
+            <ul id="content">
+                <br>
+                <!-- <li>
+                    <button  onClick="done()"><img src="./icons/check.png" style="height: 30px; width: 30px;"></button>
+                    <p>helllo</p>
+                    <button onClick="edit()"><img src="./icons/edit.png" style="height: 30px; width: 30px;"></button>
+                    <button onclick="remove()"><img src="   " style="height: 30px; width: 30px;"></button>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
